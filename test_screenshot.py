@@ -7,7 +7,7 @@ import requests
 from playwright.async_api import async_playwright
 
 # ─── اینجا رو پر کن ───
-TELEGRAM_BOT_TOKEN = "اینجا توکن جدیدت رو بنویس"
+TELEGRAM_BOT_TOKEN = "8612775892:AAEyEN7eoW_RH6Sl_-IklTotVfuw5R3VDw8"
 TELEGRAM_CHAT_ID   = "8924939591"
 # ──────────────────────
 
