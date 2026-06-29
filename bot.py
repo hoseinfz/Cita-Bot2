@@ -17,9 +17,8 @@ import os
 # ─────────────────────────────────────────
 #   تنظیمات - اینجا رو پر کن
 # ─────────────────────────────────────────
-import os
-TELEGRAM_BOT_TOKEN = os.environ.get("8612775892:AAEyEN7eoW_RH6Sl_-IklTotVfuw5R3VDw8")
-TELEGRAM_CHAT_ID   = os.environ.get("8924939591")
+TELEGRAM_BOT_TOKEN = "8612775892:AAEyEN7eoW_RH6Sl_-IklTotVfuw5R3VDw8"
+TELEGRAM_CHAT_ID   = "8924939591"
 
 CHECK_INTERVAL_MINUTES = 5   # هر چند دقیقه چک کنه (پیشنهاد: 5)
 
