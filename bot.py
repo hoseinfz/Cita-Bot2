@@ -17,8 +17,9 @@ import os
 # ─────────────────────────────────────────
 #   تنظیمات - اینجا رو پر کن
 # ─────────────────────────────────────────
-TELEGRAM_BOT_TOKEN = "TOKEN_BOT_TELEGRAM_XOD_RA_BENEVIS"   # توکن بات تلگرام
-TELEGRAM_CHAT_ID   = "CHAT_ID_XOD_RA_BENEVIS"              # چت آیدی تو
+import os
+TELEGRAM_BOT_TOKEN = os.environ.get("8612775892:AAEyEN7eoW_RH6Sl_-IklTotVfuw5R3VDw8")
+TELEGRAM_CHAT_ID   = os.environ.get("8924939591")
 
 CHECK_INTERVAL_MINUTES = 5   # هر چند دقیقه چک کنه (پیشنهاد: 5)
 
